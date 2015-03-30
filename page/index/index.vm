@@ -1,0 +1,17 @@
+#extends("/page/layout/front/front.vm")
+
+#block("content")
+
+<div>
+	Hey !
+</div>
+
+#end## end of body
+
+#script()
+// fis async
+require(['./index']);
+#end
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("./index.vm")
+#end
