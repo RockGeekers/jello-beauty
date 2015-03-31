@@ -37,7 +37,6 @@
  * @module GMU
  * @title GMU API 文档
  */
-var $ = require('zepto');
 var gmu = gmu || {
     version: '@version',
     $: window.Zepto,
@@ -5574,8 +5573,7 @@ $(function () {
     (function( $, ns, undefined ){
         if(!$)return;
 
-        var _iScroll = ns.iScroll,
-
+        var _iScroll,
             slice = [].slice,
             
             record = (function() {
@@ -5591,9 +5589,7 @@ $(function () {
 
                     return data[ key ];
                 };
-            })(),
-
-            iScroll;
+            })(), iScroll;
 
         ns.iScroll = iScroll = function( el, options ){
             var args = [].slice.call( arguments, 0 ),
@@ -5602,6 +5598,9 @@ $(function () {
             record( el, ins );
             return ins;
         };
+
+        _iScroll = ns.iScroll;
+
         iScroll.prototype = _iScroll.prototype;
 
 
@@ -10099,6 +10098,7 @@ $(function () {
             return me.origin(dir);
         }
     } );
+
 })( gmu, gmu.$ );
 
-module.exports = gmu ; 
+module.exports = gmu;
