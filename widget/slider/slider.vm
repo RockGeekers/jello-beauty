@@ -1,0 +1,15 @@
+#require("./slider.css")
+<div id="slider" class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="http://www.baidu.com/"><img src="/static/img/index/banner/banner.jpg"></a></div>
+        <div class="swiper-slide"><a href="http://www.baidu.com/"><img src="/static/img/index/banner/banner.jpg"></a></div>
+        <div class="swiper-slide"><a href="http://www.baidu.com/"><img src="/static/img/index/banner/banner.jpg"></a></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+#script()
+require(['./slider'],function(app){
+    app('#slider');
+});
+#end
