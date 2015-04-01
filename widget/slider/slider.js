@@ -1,10 +1,7 @@
-var $ = require('zepto'),
-	gmu = require('gmu');
-var app = module.exports = function(nav) {
-	// $(function(){
-	// 	$(nav).slider({
-	//     	loop : true,
-	//     	arrow :false
-	//     });
-	// });
+var Swiper = require('swiper');
+var app = module.exports = function(opt) {
+	var swiper = new Swiper(opt.container, {
+        pagination: opt.pagination,
+        paginationClickable: true
+    });
 };
