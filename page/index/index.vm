@@ -4,10 +4,30 @@
 
 #widget("/widget/slider/slider.vm")
 
-<div id="pager" class="btn-group">
-  	<a href="$!{request.contextPath}/examples/spa/page1" class="btn btn-default">页面1</a>
-  	<a href="$!{request.contextPath}/examples/spa/page2" class="btn btn-default">页面2</a>
-  	<a href="$!{request.contextPath}/examples/spa/page3" class="btn btn-default active">页面3</a>
+<div id="content">
+  	<div id="candy">
+  		<a href="#">
+  			<img src="/static/img/index/candy/onsale.jpg" alt="上海女人"/>
+  		</a>	
+  	</div>
+  	<div id="banner">
+  		<a href="#">
+  			<img src="/static/img/index/goods/goods1.jpg" alt="上海女人"/>
+  		</a>	
+  	</div>
+  	<div id="line"></div>
+  	<div id="new-arrival">
+  		<a href="#">
+  			<img src="/static/img/index/candy/newarrival.jpg" alt="上海女人"/>
+  		</a>	
+  	</div>
+  	#widget("/widget/label/label.vm")
+  	<div id="goods">
+  		<a href="#">
+  			<img src="/static/img/index/goods/goods2.jpg" alt="上海女人"/>
+  		</a>	
+  	</div>
+  	#widget("/widget/bottom/bottom.vm")
 </div>
 
 #end## end of body

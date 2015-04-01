@@ -20,3 +20,18 @@
     -webkit-align-items: center;
     align-items: center;
 }
+.swiper-slide a{
+    width: 100%;
+}
+.swiper-slide img{
+    width: 100%;
+    display: block;
+}
+
+/* rewrite swipe pagination style */
+.swiper-pagination-bullet{
+    background-color: #cbefeb;
+}
+.swiper-pagination-bullet-active{
+    background-color: #67ada8;
+}

@@ -1,0 +1,30 @@
+
+#label{
+	margin-top: 2.8%;
+}
+.label-block{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (doesn't work very well) */
+	display: -ms-flexbox;      /* TWEENER - IE 10+ */
+	display: -webkit-flex;      /* NEW - Chrome */
+	display: flex;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.label-list{
+	-webkit-box-flex: 1; 
+	-moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+	width: 50%;
+}
+.label-list .label-left{
+	margin-right: 1.9%;
+}
+.label-list .label-left:first-child,.label-list .label-right:first-child{
+	margin-bottom: 3.8%
+}
+.label-list .label-right{
+	margin-left: 1.9%;
+}
+.label-list img{
+	width: 100%;
+}
