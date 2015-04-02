@@ -1,0 +1,74 @@
+#extends("/page/layout/front/front.vm")
+
+#block("content")
+
+<div id="wrapper">
+	<div id="columns">
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/1.jpg" /></a>
+			<p></p>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/3.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/4.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/1.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/2.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/3.jpg" /></a>
+		</div>	
+		
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/4.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/1.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/2.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/3.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/4.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/1.jpg" /></a>
+		</div>	
+		
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/2.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/3.jpg" /></a>
+		</div>
+	
+		<div class="pin">
+			<a href=""><img src="/static/img/list/examples/4.jpg" /></a>
+		</div>
+	</div>
+</div>
+
+#end## end of body
+
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("./list.vm")
+#end

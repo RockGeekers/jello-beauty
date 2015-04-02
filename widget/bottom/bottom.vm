@@ -1,4 +1,4 @@
-#require("./label.css")
+#require("../label/label.css")
 <ul id="label" class="label-block">
 	<li class="label-list">
 		<div class="label-left">
