@@ -1,6 +1,0 @@
-{
-    "repos": "https://github.com/fex-team/GMU.git",
-    "version": "2.1.0",
-    "name": "gmu",
-    "main": "gmu.js"
-}
