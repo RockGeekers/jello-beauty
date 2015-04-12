@@ -1,0 +1,19 @@
+#require("./listpanel.css")
+#if($listpanel)
+#foreach( $panel in $!{listpanel} )
+    <div class="mod-pro-pannel">
+        <a href="#" class="a-block cfix">
+            <img src="../../static/img/list/examples/1.jpg" alt="" class="pic">
+            <div class="info">
+                <p class="supply-line"></p>
+                <h2>$!{panel.desc}</h2>
+                <p class="price-line">
+                    <span class="price">$!{panel.price}</span>
+                    <del>$!{panel.oprice}</del>
+                </p>
+                <p class="p-point"><ins>$!{panel.point}</ins></p>
+            </div>
+        </a>
+    </div>
+#end
+#end

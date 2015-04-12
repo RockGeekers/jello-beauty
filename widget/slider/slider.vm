@@ -1,11 +1,11 @@
 #require("./slider.css")
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner.jpg"/></a></div>
-        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner.jpg"/></a></div>
-        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner.jpg"/></a></div>
-        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner.jpg"/></a></div>
-        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner.jpg"/></a></div>
+        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner1.jpg"/></a></div>
+        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner1.jpg"/></a></div>
+        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner1.jpg"/></a></div>
+        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner1.jpg"/></a></div>
+        <div class="swiper-slide"><a href="#"><img src="/static/img/index/banner/banner1.jpg"/></a></div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>

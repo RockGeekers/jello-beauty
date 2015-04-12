@@ -38,12 +38,13 @@ html {
 
 body {
     background-color: #fff;
-    font-size: 12px;
-    line-height: 1.5;
-    font-family: 'Microsoft Yahei', Tahoma, Helvetica, arial, sans-serif;
-    color: #333;
+    min-width: 320px;
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0 auto;
+    font: 14px/1.4 "Microsoft Yahei","Helvetica Neue", Helvetica, STHeiTi, sans-serif, tahoma, arial, \5b8b\4f53;
+    color: #444;
 }
-
 img,
 fieldset {
     margin: 0;
@@ -71,7 +72,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: Helvetica Neue, Hiragino Sans GB, Microsoft Yahei, Simhei, sans-serif;
+    font-family: "Microsoft Yahei", Helvetica Neue, Hiragino Sans GB, Microsoft Yahei, Simhei, sans-serif;
 }
 
 ul li,
@@ -528,4 +529,12 @@ table {
 td,
 th {
     padding: 0;
+}
+
+a{
+    color: #444;
+}
+
+ins, a {
+  text-decoration: none;
 }
