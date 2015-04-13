@@ -3,7 +3,7 @@
 .mod-pro-pannel:after {clear:both;}
 .mod-pro-pannel {*zoom:1;margin-bottom:10px; background:#FFF; border-top:1px solid #e6e6e6; box-shadow:0 1px 2px rgba(0,0,0,0.2);padding: 10px 0;}
 .mod-pro-pannel .a-block {padding:10px 0;}
-.mod-pro-pannel .pic {float:left; width:100px; height:100px;}
+.mod-pro-pannel .pic {float:left; width:100px; height:100px;  margin: 0 10px;}
 .mod-pro-pannel .info {overflow:hidden;}
 .mod-pro-pannel .supply-line {font-size:10px; color:#a1a1a1;}
 .mod-pro-pannel h2 {height:32px; margin-top:2px; font-size:1em; overflow:hidden;}

@@ -1,34 +1,22 @@
 {
-	"title":"上海女人",
-	"listpanel":[{
-		"desc":"上海女人猪油膏",
-		"price":"¥12",
-		"oprice":"国内价：¥18",
-		"point":"省6元&nbsp;|&nbsp;好评率98%"
+	"sTitle":"上海女人",
+	"aListPanel":[{
+		"sDesc":"上海女人猪油膏",
+		"sPicUrl" : "../../static/img/list/examples/1.jpg",
+		"iPrice":"12",
+		"iOriginPrice":"18",
+		"sIntro":"省6元&nbsp;|&nbsp;好评率98%"
 	},{
-		"desc":"上海女人猪油膏",
-		"price":"¥12",
-		"oprice":"国内价：¥18",
-		"point":"省6元&nbsp;|&nbsp;好评率98%"
+		"sDesc":"上海女人猪油膏",
+		"sPicUrl" : "../../static/img/list/examples/1.jpg",
+		"iPrice":"12",
+		"iOriginPrice":"18",
+		"sIntro":"省6元&nbsp;|&nbsp;好评率98%"
 	},{
-		"desc":"上海女人猪油膏",
-		"price":"¥12",
-		"oprice":"国内价：¥18",
-		"point":"省6元&nbsp;|&nbsp;好评率98%"
-	},{
-		"desc":"上海女人猪油膏",
-		"price":"¥12",
-		"oprice":"国内价：¥18",
-		"point":"省6元&nbsp;|&nbsp;好评率98%"
-	},{
-		"desc":"上海女人猪油膏",
-		"price":"¥12",
-		"oprice":"国内价：¥18",
-		"point":"省6元&nbsp;|&nbsp;好评率98%"
-	},{
-		"desc":"上海女人猪油膏",
-		"price":"¥12",
-		"oprice":"国内价：¥18",
-		"point":"省6元&nbsp;|&nbsp;好评率98%"
+		"sDesc":"上海女人猪油膏",
+		"sPicUrl" : "../../static/img/list/examples/1.jpg",
+		"iPrice":"12",
+		"iOriginPrice":"18",
+		"sIntro":"省6元&nbsp;|&nbsp;好评率98%"
 	}]
 }
