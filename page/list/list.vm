@@ -4,6 +4,8 @@
 
 #widget("/widget/slider/slider.vm")
 
+#widget("/widget/category/category.vm")
+
 <div id="list">
 	#widget("/widget/listpanel/listpanel.vm")
 	<div id="columns">
