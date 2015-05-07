@@ -10,7 +10,6 @@
                 <p class="price-line">
                     <span class="price">¥$!{panel.price}</span>
                 </p>
-                <p class="p-point"><ins>$!{panel.sIntro}</ins></p>
             </div>
         </a>
     </div>
