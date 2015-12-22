@@ -1,22 +1,47 @@
 {
-	"sTitle":"上海女人",
-	"aListPanel":[{
-		"sDesc":"上海女人猪油膏",
-		"sPicUrl" : "../../static/img/list/examples/1.jpg",
-		"iPrice":"12",
-		"iOriginPrice":"18",
-		"sIntro":"省6元&nbsp;|&nbsp;好评率98%"
-	},{
-		"sDesc":"上海女人猪油膏",
-		"sPicUrl" : "../../static/img/list/examples/1.jpg",
-		"iPrice":"12",
-		"iOriginPrice":"18",
-		"sIntro":"省6元&nbsp;|&nbsp;好评率98%"
-	},{
-		"sDesc":"上海女人猪油膏",
-		"sPicUrl" : "../../static/img/list/examples/1.jpg",
-		"iPrice":"12",
-		"iOriginPrice":"18",
-		"sIntro":"省6元&nbsp;|&nbsp;好评率98%"
-	}]
+    "sTitle": "上海女人",
+    "aListPanel": [{
+        "name": "宫灯补水喷雾",
+        "price": "20",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdengbushuipenwu.jpg"
+    }, {
+        "name": "宫灯红景天BB霜",
+        "price": "30",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdenghongjingtianbbshuang.jpg"
+    }, {
+        "name": "宫灯红景天美白霜",
+        "price": "30",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdenghongjingtianmeibaishuang.jpg"
+    }, {
+        "name": "宫灯红景天美肌乳",
+        "price": "30",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdenghongjingtianmeijiru.jpg"
+    }, {
+        "name": "宫灯红景天美肌水",
+        "price": "30",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdenghongjingtianmeijishui.jpg"
+    }, {
+        "name": "宫灯红景天美肌液",
+        "price": "30",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdenghongjingtianmeijiye.jpg"
+    }, {
+        "name": "宫灯红景天面膜",
+        "price": "30",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdenghongjingtianmianmo.jpg"
+    }, {
+        "name": "宫灯杏仁补水面膜（免洗）",
+        "price": "25",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdengxingrenbushuimianmo.jpg"
+    }, {
+        "name": "宫灯杏仁蜜",
+        "price": "25",
+        "url": "http://52.74.102.5/icons/product/gongdenghufu/gongdengxingrenmi.jpg"
+    }],
+    "aCategory": [{
+        "name": "彩妆系列",
+        "type": "caizhuangxilie"
+    }, {
+        "name": "宫灯护肤",
+        "type": "gongdenghufu"
+    }]
 }

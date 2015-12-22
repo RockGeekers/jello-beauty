@@ -1,0 +1,10 @@
+{
+	"code" : 0,
+	"data" : [{
+		"name":"彩妆系列",
+		"type":"caizhuangxilie"
+	},{
+		"name":"宫灯护肤",
+		"type":"gongdenghufu"
+	}]
+}
