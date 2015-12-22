@@ -1,13 +1,13 @@
-#extends("/page/layout/front/front.vm")
+#extends("page/layout/front/front.vm")
 
 #block("content")
 
-#widget("/widget/slider/slider.vm")
+#widget("widget/slider/slider.vm")
 
-#widget("/widget/category/category.vm")
+#widget("widget/category/category.vm")
 
 <div id="list">
-	#widget("/widget/listpanel/listpanel.vm")
+	#widget("widget/listpanel/listpanel.vm")
 	<div id="columns">
 		<div class="pin">
 			<a href=""><img src="/static/img/list/examples/1.jpg" /></a>
@@ -71,9 +71,9 @@
 		</div>
 	</div>
 </div>
-#widget("/widget/contact/contact.vm")
+
 #end## end of body
 
 ## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
-#require("./list.vm")
+#require("page/list/list.vm")
 #end
